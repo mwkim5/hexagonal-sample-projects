@@ -50,3 +50,6 @@ cd api
 docker build -t hexagonal-sample-app .
 docker run -p 8080:8080 -e "SPRING_PROFILES_ACTIVE=local" hexagonal-sample-app
 ```
+
+## Swagger 실행 방법
+- 애플리케이션 실행 후 브라우저에 **http://localhost:8080/swagger-ui/index.html** 접속
