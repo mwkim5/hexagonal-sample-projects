@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        sql: DEBUG
+        type:
+          descriptor:
+            sql: TRACE
+      springframework:
+        orm:
+          jpa: DEBUG

@@ -1,0 +1,6 @@
+rootProject.name = 'hexagonal-sample-projects'
+include 'application'
+include 'domain'
+include 'infra-jpa'
+include 'api'
+
